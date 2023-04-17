@@ -1,8 +1,26 @@
 * {
     box-sizing: border-box;
+    /* font-family: '微軟正黑體, Microsoft JhengHei, Noto Sans'; */
+    font-family: 'Noto Sans';
+
 }
 
 html, body {
     margin: 0;
     padding: 0;
+}
+
+a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: navy;
+    font-size: 16px;
+}
+
+@media (min-width: 576px) {
+    a {
+        margin-right: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
 }
