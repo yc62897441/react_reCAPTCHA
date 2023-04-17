@@ -64,7 +64,6 @@ const V3 = () => {
             <p>在按下 submit 按鈕時，g-recaptcha API 會先去向 g-recaptcha 進行驗證並取回 token，之後再進行應用程式後續的邏輯例如 post form data</p>
             <p>注意：reCAPTCHA 權杖會在兩分鐘後失效。如果您要使用 reCAPTCHA 保護動作，請務必在使用者執行動作時呼叫 execute，而非在網頁載入時呼叫。</p>
 
-            {/* <form class="form" action="submit" method="post"> */}
             <form className="form">
                 <div>
                     <label htmlFor="account">帳號</label>

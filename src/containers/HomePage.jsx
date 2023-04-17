@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import Form from '../components/Form.jsx'
 
 const HomePageWrapper = styled.div`
     width: 100%;
@@ -8,7 +7,7 @@ const HomePageWrapper = styled.div`
 function HomePage() {
     return (
         <HomePageWrapper>
-            <Form />
+            Home Page
         </HomePageWrapper>
     )
 }
