@@ -19,6 +19,7 @@ function Header() {
             <Link to="/">HomePage</Link>
             <Link to="/v3">v3</Link>
             <Link to="/v2Checkbox">v2Checkbox</Link>
+            <Link to="/v2Invisible">v2Invisible</Link>
         </HeaderWrapper>
     )
 }
