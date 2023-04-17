@@ -18,6 +18,7 @@ function Header() {
         <HeaderWrapper>
             <Link to="/">HomePage</Link>
             <Link to="/login">Login</Link>
+            <Link to="/v3">v3</Link>
         </HeaderWrapper>
     )
 }
