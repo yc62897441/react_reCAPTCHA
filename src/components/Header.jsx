@@ -3,13 +3,11 @@ import { Link } from 'react-router-dom'
 
 const HeaderWrapper = styled.div`
     width: 100%;
-    padding: 10px;
-    border: 2px solid black;
+    padding: 20px 10px;
+    background-color: #eeeeee;
 
-    a {
-        margin-right: 10px;
-        text-decoration: none;
-        color: navy;
+    @media (min-width: 576px) {
+        padding: 30px 15px;
     }
 `
 
